@@ -1,4 +1,3 @@
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:template_tset/logic/background_color_logic.dart';
 
@@ -16,8 +15,11 @@ class HomePage extends StatefulWidget {
   /// Parameters:
   ///
   /// * `key` (optional): A Key that uniquely identifies this widget.
-  /// * `isDarkMode`: A boolean value that indicates whether the app is currently in dark mode.
-  /// * `onThemeChanged`: A callback function that is called when the user changes the app's theme. It takes a boolean parameter that indicates whether the app should switch to dark mode.
+  /// * `isDarkMode`: A boolean value that indicates whether the app
+  /// is currently in dark mode.
+  /// * `onThemeChanged`: A callback function that is called when the
+  /// user changes the app's theme. It takes a boolean parameter that
+  /// indicates whether the app should switch to dark mode.
   ///
   const HomePage({
     Key? key,

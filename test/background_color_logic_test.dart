@@ -9,7 +9,8 @@ void main() {
 
   test('generateRandomColor() returns a fully opaque color', () {
     final color = BackgroundColorLogic.generateRandomColor();
-    expect(color.alpha, equals(255));
+    const int _kMaxAlphaValue = 255;
+    expect(color.alpha, equals(_kMaxAlphaValue));
   });
 
   test('generateRandomColor() returns a color with random values', () {

@@ -18,11 +18,10 @@ class ColorChangerApp extends StatefulWidget {
 
 class _ColorChangerAppState extends State<ColorChangerApp> {
   /// A boolean value that indicates whether the app is currently in dark mode.
-  late ValueNotifier<bool> _isDarkMode;
+  final _isDarkMode = ValueNotifier<bool>(false);
 
   @override
   void initState() {
-    _isDarkMode = ValueNotifier<bool>(false);
     super.initState();
   }
 
