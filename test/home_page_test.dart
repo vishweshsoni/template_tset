@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:template_tset/ui/home_page.dart';
@@ -9,7 +10,11 @@ void main() {
       MaterialApp(
         home: HomePage(
           isDarkMode: false,
-          onThemeChanged: (value) {},
+          onThemeChanged: (value) {
+            if (kDebugMode) {
+              print('Theme changed to dark mode: $value');
+            }
+          },
         ),
       ),
     );
