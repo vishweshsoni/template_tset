@@ -1,12 +1,37 @@
-# flutter_project_template
-📖 Template for flutter projects using solid_lints, CI for tests and analysis.
 
-- Uses latest stable flutter
-- Repo name as your project name
-- Organization from your profile email address or default
+# Color Changer App
 
-# Usage
-1. Press "Use this template" on the menu.
-2. Fill Github form with your new repo name and press "Create repository from template"
-3. Wait for it to be created and set up action is complete. In a couple of minutes, you'll see the flutter project created in your repo once Github Actions are complete.
-4. Clone and code.
+This is a simple Flutter app that changes the background color of the screen when a button is
+pressed. The app is built with the Flutter framework.
+
+## Features
+
+- Change background color with button press
+
+## Getting Started
+
+To get started with this app, clone this repository and run the following command to install the necessary dependencies:
+
+```sh
+flutter pub get
+```
+
+## Running the App
+
+To run the app, use the following command:
+
+```sh
+flutter run
+```
+
+## Running Tests
+
+To run the tests, use the following command:
+
+```sh
+flutter test
+```
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
